@@ -1,0 +1,433 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+body{background-color: #fff;  font-family: 'Roboto', sans-serif;}
+.d-flex{display: flex;}
+.container{width: 1140px;margin: auto;}
+.ta-center{
+      text-align: center;
+}
+.jc-sb{justify-content: space-between;}
+.jc-sa{justify-content: space-around;}
+.jc-center{justify-content: center;}
+.ai-center{align-items: center;}
+a{text-decoration: none;}
+li{list-style: none;}
+i{color: #fff;}
+.li li a{color: #fff; padding: 0px 20px;}
+.icons i{
+      padding: 0px 20px;
+      color: #000;
+}
+
+.header{
+      margin: 20px 0px;
+      padding-bottom: 20px;
+      border: none;
+}
+.li li a{
+      transition: 0.5s;
+      color: #000;
+}
+.li a:hover{
+      color: #f42b5f;
+      border-bottom: 1px solid #f42b5f;
+}
+
+.back-img{
+      background-image: url(../images/bij2.jpg);
+      background-repeat: no-repeat;
+      height: 400px;
+}
+
+.back-img{
+      margin-bottom: 60px;
+}
+.aboutcaf{
+      color: #fff;
+      text-align: center;
+      padding-top: 11%;
+      font-size: 30px;
+      line-height: 70px;
+}
+.aboutcaf span{
+      color: #e5b9a0;
+}
+
+.top img{
+      mix-blend-mode: screen;
+      width: 100%;
+      padding-bottom: 10px;
+      
+}
+.downm img{
+      mix-blend-mode: screen;
+      margin-top: 70px;
+      width: 100%;
+}
+
+.man{
+      background-color: #fff;
+      width: 100%;
+}
+
+
+.man2{
+      margin-top: -250px;
+      width: 50%;
+}
+.mancup{
+      padding-left: 100px;
+      width: 100%;
+      
+}
+
+.cup1{
+      width: 100%;
+}
+.mancup a{
+      background-color: #74522d;
+      padding: 7px 20px;
+      border-radius: 10px;
+      color: #fff;
+}
+.mancup p{
+      color: #7a7a7a;
+}
+
+.mancup h1{
+      padding: 35px 0px;
+      font-size: 35px;
+}
+
+.chek i{
+      color: #000;
+}
+
+.chek{
+      margin: 30px 0px;
+}
+
+.chek li{
+      padding-bottom: 40px;
+      font-size: 18px;
+    font-weight: 500;
+}
+
+
+.chek i{
+      border: 1px solid #000;
+      padding: 5px 10px;
+      font-size: 20px;
+}
+
+.chek i:hover{
+      background-color: #7a7a7a;
+}
+
+
+.choosee{
+       text-align: center;
+}
+
+.choosee a{
+      background-color: #74522d;
+      padding: 10px 15px;
+      color: #fff;
+      border-radius: 10px;
+}
+
+.choosee h1{
+      font-size: 35px;
+      padding: 20px 0px;
+}
+
+
+.testycoffee i{
+      color: #000;
+      font-size: 50px;
+}
+
+.testycoffee{
+      text-align: center;
+      border: 1px solid #83817f;
+      width: 30%;
+      padding: 50px 15px;
+      border-radius: 10px;
+}
+
+.nfringilla{
+      padding: 80px 0px;
+}
+.testycoffee h1{
+      padding: 20px 0px;
+      font-size: 25px;
+}
+.testycoffee p{
+    color:#767371 ;  
+    line-height: 30px;
+}
+
+.arrow i{
+      border: 1px solid #7a7a7a;
+      padding: 0px 10px;
+      font-size: 25px;
+      border-radius: 5px;
+}
+.arrow{
+      margin-top: 40px;
+}
+
+.arrow i:hover{
+      background-color: #776c62;
+}
+
+.uppar img{
+      width: 140%;
+      height: 650px;
+}
+
+.uppar2{
+      background-color: #fff;
+}
+
+.uppar2 h1{
+      font-size: 40px;
+      line-height: 40px;
+}
+
+.uppar2 p{
+      color: #7a7a7a;
+      padding: 20px 0px;
+      line-height: 30px;
+}
+
+.best-coffe__wrapper {
+      position: relative;
+      z-index: 2;
+      background: #ffffff;
+      box-shadow: 0px 14px 40px 0px rgb(220 220 220 / 30%);
+      border-radius: 10px;
+      border: 1px solid #E2DFDD;
+      padding-top: 80px;
+      padding-left: 100px;
+      padding-right: 130px;
+      padding-bottom: 80px;}
+
+      .try{
+            width: 90%;
+      }
+
+
+      .housing{
+            padding: 80px 0px;
+      }
+
+
+      .ourchef a{
+            background-color: #74522d;
+            padding: 10px 12px;
+            border-radius: 10px;
+      }
+
+      .ourchef h1{
+            padding: 20px 0px;
+      }
+
+     .girl1 img{
+      width: 80%;
+     }
+     .girl1 h3{
+      padding: 20px 0px;
+     }
+     .girl1{
+      border: 1px solid #000;
+      text-align: left;
+      width: 30%;
+      padding: 40px 10px
+     }
+
+     .padding p{
+
+     }
+
+     .padding img{
+      border-radius: 60px 60px 60px 0px;
+     }
+
+     .padding img:hover{
+      border-radius: 0px 60px 60px 60px;
+     }
+
+     .last{
+      background-color: #000;
+     }
+
+     .footer{
+      color: #fff;
+     }
+     .footer p{
+     margin: 40px 0px;
+    
+     }
+     .ADDRESS{
+      padding: 0px 200px;
+     }
+
+
+     .last{
+      margin-top: 180px;
+     }
+
+     .Donec{
+      color: #fff;
+      word-spacing: 3px;
+      line-height: 25px;
+      padding-top: 50px;
+     }
+
+@media (max-width:1024px) {
+      .container{
+            width: 90%;
+      }
+      .three{
+            flex-wrap: wrap;
+      }
+      .mancup{
+            margin-top: 60px;
+      }
+      .housing{
+            flex-wrap: wrap;
+      }
+      .uppar img {
+            width: 100%;
+            height: 500px;
+            margin-left: 95px;
+        }
+        .downm img {
+            margin-top: 115px;
+        }
+}
+
+@media (max-width:768px){
+      .uppar img {
+            margin-left: 0px;
+        }
+        .downm img {
+            margin-top: 150px;
+        }
+        .ADDRESS {
+            padding: 0px 40px;
+        }
+}
+
+@media (max-width:600px){
+      .header{
+            flex-wrap: wrap;
+      }
+      .logo{
+            order: 1;
+      }
+      .nav{
+            order: 3;
+            flex-wrap: wrap;
+      }
+      .icons{
+            order: 2;
+      }
+      .li li a{
+            padding: 0px 45px;
+      }
+      .icons i {
+            padding: 0px 24px;
+        }
+        .downm img {
+            margin-top: 170px;
+        }
+}
+
+@media (max-width:425px){
+      .downm img {
+            margin-top: 121px;
+        }
+        .li li a {
+            padding: 0px 20px;
+        }
+
+        .top img {
+            padding-bottom: 15px;
+        }
+        .mancup {
+            padding-left: 3px;
+        }
+      .testycof{
+            flex-wrap: wrap;
+      }
+      .testycoffee{
+            width: 100%;
+      }
+      .choosee h1 {
+            font-size: 25px;
+        }
+      .best-coffe__wrapper{
+            padding-right: 52px;
+            padding-left: 31px;
+      }
+      .secondlast{
+            flex-wrap: wrap;
+      }
+      .girl1{
+            width: 100%;
+      }
+      .padding{
+            margin-left: 52px;
+      }
+      .last {
+            margin-top: 80px;
+        }
+      input{
+            display: none;
+        }
+        .ADDRESS {
+            padding: 0px 10px;
+        }
+        .nav {
+            order: 3;
+            padding: 10px 25px;
+        }
+}
+
+@media (max-width:375px){
+      .nav {
+            padding: 10px 0px;
+        }
+        .downm img {
+            margin-top: 123px;
+        }
+        .li li a {
+            padding: 0px 20px;
+        }
+}
+
+@media (max-width:320px){
+      .nav{
+            flex-wrap: wrap;
+      }
+      .li li a {
+            padding: 0px 8px;
+        }
+        .nav {
+            padding: 10px 20px;
+        }
+        .uppar2 h1 {
+            font-size: 30px;
+        }
+}
+
+
+     
+
+     

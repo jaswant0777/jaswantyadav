@@ -1,0 +1,210 @@
+*{margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+body{background-color: #fff;  font-family: 'Roboto', sans-serif;}
+.d-flex{display: flex;}
+.container{width: 1140px;margin: auto;}
+.ta-center{
+      text-align: center;
+}
+.jc-sb{justify-content: space-between;}
+.jc-sa{justify-content: space-around;}
+.jc-center{justify-content: center;}
+.ai-center{align-items: center;}
+a{text-decoration: none;}
+li{list-style: none;}
+i{color: #fff;}
+.li li a{color: #fff; padding: 0px 20px;}
+.icons i{
+      padding: 0px 20px;
+      color: #000;
+}
+
+.header{
+      margin: 20px 0px;
+      padding-bottom: 20px;
+      border: none;
+}
+.li li a{
+      transition: 0.5s;
+      color: #000;
+}
+.li a:hover{
+      color: #f42b5f;
+      border-bottom: 1px solid #f42b5f;
+}
+
+.back-img{
+      background-image: url(../images/bij2.jpg);
+      background-repeat: no-repeat;
+      height: 400px;
+}
+
+.back-img{
+      margin-bottom: 60px;
+}
+
+.downm img{
+      mix-blend-mode: screen;
+      margin-top: 70px;
+      width: 100%;
+}
+
+
+.b1{
+      color: #fff;
+      border: 1px solid #716f6f;
+      padding: 10px 0px;
+      margin: 50px 0px;
+}
+.b1 h2{
+      padding: 0px 20px;
+      color: #000;
+}
+.b1 h3{
+      padding: 0px 20px;
+      color: #000;
+}
+
+.b1 img{
+      margin-left: -40px;
+      border-radius: 100%;
+      transition: 0.5s;
+}
+
+.b1 img:hover{
+      transform: scale(1.2);
+}
+
+
+.boxes2{
+      margin-left: 100px;
+}
+
+.mar{
+      margin: 80px 0px;
+}
+.cafena{
+      color: #000;
+}
+
+.footer{
+      color: #fff;
+     }
+     .footer p{
+     margin: 40px 0px;
+    
+     }
+     .ADDRESS{
+      padding: 0px 200px;
+     }
+
+
+     .last{
+      margin-top: 180px;
+     }
+
+     .Donec{
+      color: #fff;
+      word-spacing: 3px;
+      line-height: 25px;
+      padding-top: 50px;
+     }
+
+     @media (max-width:1024px){
+      .container{
+            width: 90%;
+      }
+      .food{
+            flex-wrap: wrap;
+      }
+      .b1{
+            width: 100%;
+      }
+      .boxes2{
+            margin: auto;
+            width: 100%;
+      }
+      .boxes1{
+            margin: auto;
+            width: 100%;
+      }
+
+      .b1 img {
+            margin-left: 28px;
+        }
+
+        .b1 h3{
+            margin-left: 120px;
+        }
+        .b1 h2{
+            margin-left: 200px;
+        }
+
+        .downm img {
+            margin-top: 120px;
+        }
+     }
+
+     @media (max-width:768px){
+      .downm img {
+            margin-top: 148px;
+        }
+        .b1 h2 {
+            margin-left: 10px;
+        }
+        
+     }
+
+     @media (max-width:425px){
+      .b1 h3 {
+            margin-left: 0px;
+        }
+        .ADDRESS {
+            padding: 0px 0px;
+        }
+        .downm img {
+            margin-top: 189px;
+        }
+        .aboutcaf {
+            font-size: 25px;
+        }
+     }
+
+     @media (max-width:375px){
+      .downm img {
+            margin-top: 195px;
+        }
+        .b1 h2 {
+            margin-left: 0px;
+        }
+        .b1 img {
+            margin-left: 0px;
+        }
+     }
+
+     @media (max-width:320px){
+      .nav {
+            padding: 10px 0px;
+        }
+        .li li a {
+            padding: 0px 10px;
+        }
+        .b1{
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .b1 img {
+            margin-left: 35px;
+        }
+        .b1 h3 {
+            margin-left: 24px;
+        }
+        .last {
+            margin-top: 0px;
+        }
+     }
+
+

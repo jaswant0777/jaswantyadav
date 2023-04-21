@@ -1,0 +1,488 @@
+*{margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+body{background-color: #000; font-family: 'Roboto', sans-serif;}
+.d-flex{display: flex;}
+.container{width: 1140px;margin: auto;}
+.jc-sb{justify-content: space-between;}
+.jc-sa{justify-content: space-around;}
+.jc-center{justify-content: center;}
+.ai-center{align-items: center;}
+a{text-decoration: none;}
+li{list-style: none;}
+i{color: #fff;}
+.li li a{color: #fff; padding: 0px 20px;}
+.icons i{
+      padding: 0px 20px;
+}
+
+.header{
+      margin: 20px 0px;
+      border-bottom: 1px solid #444141;
+      padding-bottom: 20px;
+}
+.li a{
+      transition: 0.5s;
+}
+.li a:hover{
+      color: #f42b5f;
+      border-bottom: 1px solid #f42b5f;
+}
+.bg{
+      background-image: url(../images/bg3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+}
+
+.center{
+      color: #fff;
+      padding: 38px 40px;
+}
+.center h1{
+      font-size: 60px;
+      padding: 20px 0px;
+}
+.center p{
+      font-size: 15px;
+      padding-bottom: 45px;
+}
+.center2 a{
+      color: #fff;
+      padding: 10px 20px;
+      font-weight: bold;
+      color: #fff;
+      border: 1px solid #716f6f;
+      transition: 0.8s;
+      border-radius: 10px;
+}
+
+.center2 a:hover{
+      background-color: #f42b5f;
+}
+.twitter a{
+      padding: 0px 30px;
+      color: #fff;
+}
+.twitter{
+      font-weight: bold;
+      margin-top: 50px;
+     margin-left: -25px;
+      
+}
+
+.boxes{
+      color: #fff;
+      margin: 140px 0px;
+}
+.box1{
+      border: 1px solid #716f6f;
+      width: 30%;
+      padding: 40px 20px;
+      
+}
+
+.box1 p{
+      padding: 10px 0px;
+      font-size: 20px;
+}
+.box1 h1{
+      font-size: 40px;
+}
+
+.bg11{
+      background-image: url(../images/box1-bg.jpg);
+      transition: 0.5s;
+}
+.bg11:hover{
+      transform: scale(1.2);
+}
+
+.bg12{
+      background-image: url(../images/box2-bg.jpg);
+      transition: 0.5s;
+}
+.bg12:hover{
+      transform: scale(1.2);
+}
+
+.bg13{
+      background-image: url(../images/box3.bg.jpg);
+      transition: 0.5s;
+}
+.bg13:hover{
+      transform: scale(1.2);
+}
+
+
+
+
+.two-fix{
+      color: #fff;
+      background-color: #03020c;
+}
+
+.front img{
+      width: 100%;
+      height: 500px;
+}
+
+.our{
+      width: 50%;
+      padding-left: 80px;
+      margin: 50px 0px;
+      text-align: left;
+}
+.our h1{
+      padding-bottom: 30px;
+}
+
+.firstp {
+      padding: 10px 10px;
+      background-color: #737f65;
+      width: 25%;
+      margin: 20px 0px;
+      border-radius: 10px;
+      
+}
+
+.secondp{
+      padding-bottom: 30px;
+      line-height: 30px;
+}
+.thirip{
+      line-height: 30px;
+}
+.wid{
+      width: 90%;
+}
+
+
+.cafena{
+      color: #fff;
+      text-align:center;
+}
+.cafena p{
+      background-color: #737f65;
+      width: 10%;
+      margin: auto;
+      padding: 10px 0px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+}
+
+.b1{
+      color: #fff;
+      border: 1px solid #716f6f;
+      padding: 10px 0px;
+      margin: 20px 0px;
+}
+.b1 h2{
+      padding: 0px 20px;
+}
+.b1 h3{
+      padding: 0px 20px;
+}
+
+.b1 img{
+      margin-left: -40px;
+}
+
+
+.boxes2{
+      margin-left: 100px;
+}
+
+.mar{
+      margin: 80px 0px;
+}
+
+
+.coffee{
+      color: #fff;
+      width: 47%;
+}
+
+.coffee h1{
+      font-size: 34px;
+      padding: 25px 0px;
+      font-weight: bold;
+}
+
+.coffee p{
+      line-height: 25px;
+      word-spacing: 3px;
+      padding-bottom: 50px;
+}
+
+.coffee a{
+      background-color: #71835d;
+      padding: 15px 30px;
+      border-radius: 10px;
+}
+
+.machine img{
+      margin-left: 150px;
+}
+
+.MACHINEBUY{
+      padding: 20px 0px;
+}
+
+.FEEDBACK{
+      color: #fff;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+}
+.FEEDBACK a{
+      background-color: #71835d;
+      padding: 5px 15px;
+}
+
+.FEEDBACK h1{
+      padding: 30px 0px;
+      font-size: 45px;
+}
+.line{
+      padding-bottom: 20px;
+}
+.small{
+      padding: 20px 0px;
+}
+.FEEDBACK h3{
+      padding: 10px 0px;
+}
+.FEEDBACK p{
+      word-spacing: 3px;
+}
+
+.FEEDBACK{
+      padding: 50px 0px;
+}
+
+.BLOG{
+     text-align: center;
+      color: #fff;
+}
+.BLOG h1{
+      padding-bottom: 50px;
+}
+.BLOG a{
+      padding: 10px 0px;
+}
+
+
+.RASALINA{
+      color: #fff;
+      border: 1px solid #737f65;
+      padding: 10px 25px;
+      width: 108%;
+      margin-top: -10px;
+}
+.RASALINA a{
+      color: #fff;
+}
+
+.kkk{
+      width: 30%;
+      transition: 0.7s;
+}
+
+.kkk:hover{
+      transform: scale(1.1);
+}
+.RASALINA p{
+      font-size: 15px;
+      padding-top: 10px;
+}
+.RASALINA h1{
+      font-size: 21px;
+      padding: 20px 0px;
+}
+.RASALINA a{
+      padding-bottom: 10px;
+}
+
+.down{
+      border-bottom: 1px solid #716f6f;
+      padding-bottom: 110px;
+}
+
+
+.up i{
+      font-size: 50px;
+      border: 1px solid #716f6f;
+      border-radius: 100%;
+      padding: 10px 16px;
+      background-color: #000;
+      
+}
+
+.up{
+      margin-top: -30px;
+      color: #fff;
+      text-align: center;
+}
+.up p{
+      margin-top: 30px;
+}
+
+.up i:hover{
+      background-color: #716f6f;
+      border-radius: 100%;
+      padding: 10px 16px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 1024px){
+      .container{
+            width: 90%;
+      }
+      .last1{
+            width: 108%;
+      }
+      .boxes{
+            flex-wrap: wrap;
+      }
+      .box1{
+            width: 50%;
+      }
+      
+}
+
+
+@media(max-width: 768px){
+      .food{
+            flex-wrap: wrap;
+      }
+      .boxes1{
+           margin: auto;
+      }
+}
+
+@media(max-width: 425px){
+      .icons{
+            order: 2;
+      }
+      .logo{
+            order: 1;
+      }
+      .nav{
+            order: 3;
+            padding: 10px 30px;
+      }
+      .header{
+            flex-wrap: wrap;
+      }
+      .MACHINEBUY{
+            flex-wrap: wrap;
+      }
+      .boxes2{
+           margin: auto;
+      }
+      .center h1 {
+            font-size: 40px;
+        }
+        .twitter a {
+            padding: 0px 15px;
+        }
+        .twitter {
+            margin-left: -10px;
+        }
+        .two-fix{
+            flex-wrap: wrap;
+        }
+        .wid {
+            width: 200%;
+        }
+        .our {
+            padding-left: 35px;
+        }
+        .cafena p {
+            width: 25%;
+      }
+      .b1 h2{
+            font-size: 15px;
+      }
+      .b1 img {
+            margin-left: 7px;
+        }
+        .coffee {
+            width: 100%;
+        }
+        .machine img {
+            margin-left: 40px;
+        }
+        .machine{
+            padding-top: 50px;
+        }
+        .FEEDBACK {
+            width: 100%;
+        }
+        .boxes3{
+            flex-wrap: wrap;
+        }
+        .kkk{
+            width: 100%;
+        }
+        .last1 {
+            width: 100%;
+        }
+        .RASALINA{
+            width: 100%;
+        }
+}
+
+@media(max-width: 375px){
+      .box1{
+            width: 100%;
+      }
+
+      .li li a {
+            padding: 0px 15px;
+        }
+
+        .center h1 {
+            font-size: 30px;
+        }
+
+        .twitter a {
+            padding: 0px 13px;
+        }
+}
+
+@media(max-width: 320px){
+      .li li a {
+            padding: 0px 10px;
+        }
+        .center2{
+            flex-wrap: wrap;
+        }
+        .center2 a {
+            padding: 10px 8px;
+            font-size: 15px;
+      }
+      .twitter{
+            flex-wrap: wrap;
+      }
+      .twitter a{
+            font-size: 20px;
+            padding: 0px 85px;
+      }
+      .b1{
+            flex-wrap: wrap;
+            justify-content: center;
+      }
+      .down{
+            width: 90%;
+      }
+        
+}
